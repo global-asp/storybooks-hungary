@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Storybooks Hungary</title>
-    <description>Storybooks Hungary is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Hungarian and English, as well as the most widely spoken languages of Hungary.
+    <title>Storybooks Magyarország</title>
+    <description>A Storybooks Magyarország egy ingyenes oktatási célú oldal, mely segítséget kíván nyújtani azoknak a nyelvtanulóknak, akik otthon, a közösségükben vagy az iskolában tanulnak magyarul vagy más nyelveken. Az oldalon 40 mese található az African Storybooksból, különböző szinteken, hanganyaggal. Magyarul, angolul és más nyelveken is olvashatóak a történetek.
 </description>
     <link>https://global-asp.github.io//storybooks-hungary/</link>
     <atom:link href="https://global-asp.github.io//storybooks-hungary/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Jul 2018 13:56:23 -0700</pubDate>
-    <lastBuildDate>Fri, 13 Jul 2018 13:56:23 -0700</lastBuildDate>
+    <pubDate>Sat, 14 Jul 2018 03:13:31 -0700</pubDate>
+    <lastBuildDate>Sat, 14 Jul 2018 03:13:31 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
