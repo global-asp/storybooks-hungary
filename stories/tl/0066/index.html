@@ -78,7 +78,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-hungary/stories/tl" class="button">Vissza a történetek listájához</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-hungary/stories/tl">Vissza a történetek listájához</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/01.jpg"></div>
@@ -86,21 +86,21 @@
 		<h1><span class="def">Si Nozibele at ang Tatlong Hibla ng Buhok</span>
 			<span class="l1">Nozibele és a három hajszál</span>
 			<span class="l2">Nozibele and the three hairs</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Következő oldal"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/tl/0066/mp3/01.mp3"></audio>
-				<button onclick="switchlang('tl,hu','hu,en,tl')" class="btn btn-lg lang-primary" title="Váltás magyarról tagalog">hu</button>
-				<button style="display:none" onclick="switchlang('tl,en','hu,en,tl')" class="btn btn-lg lang-secondary" title="Váltás angolról tagalog">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon" src="/storybooks-hungary/css/pencil.svg" alt="Írta" width="38px"></span> Tessa Welch</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon" src="/storybooks-hungary/css/global.svg" alt="Fordította" width="38px"></span> Arlene Avila</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa" width="38px"></span> La Trinidad Mina</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon" src="/storybooks-hungary/css/language.svg" alt="Nyelv" width="38px"></span> <a href="/storybooks-hungary/stories/tl">tagalog</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon" src="/storybooks-hungary/css/level.svg" alt="Szint" width="38px"></span> <a href="/storybooks-hungary/stories/tl/level3">3. szint</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/tl/0066/tl-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Következő oldal"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/tl/0066/mp3/01.mp3"></audio>
+			<button onclick="switchlang('tl,hu','hu,en,tl')" class="btn btn-lg lang-primary" title="Váltás magyarról tagalog">hu</button>
+			<button style="display:none" onclick="switchlang('tl,en','hu,en,tl')" class="btn btn-lg lang-secondary" title="Váltás angolról tagalog">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Tessa Welch</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> Arlene Avila</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> La Trinidad Mina</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/tl">tagalog</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/tl/level3">3. szint</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/tl/0066/tl-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
 	</div>
 </div>
 <hr>
@@ -553,7 +553,7 @@ has never been seen since.
 		<h5><a href="/storybooks-hungary/stories/tl/level3">3. szint</a></h5>
 		<h5>Forrás: <a href="https://africanstorybook.org/reader.php?id=1880" target="_blank">Nozibele and the three hairs</a> az <a href="https://africanstorybook.org/">African Storybookból</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ez a mű a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu">Creative Commons Nevezd meg! 3.0 Licenc</a> feltételeinek megfelelően felhasználható.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank"><img alt="Creative Commons Licenc" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ez a mű a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank">Creative Commons Nevezd meg! 3.0 Licenc</a> feltételeinek megfelelően felhasználható.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
