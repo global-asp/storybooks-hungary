@@ -15,7 +15,8 @@
 	<title>انتقام طائر دليل المناحل - Storybooks Magyarország</title>
 	<meta name="description" content="A Storybooks Magyarország egy ingyenes oktatási célú oldal, mely segítséget kíván nyújtani azoknak a nyelvtanulóknak, akik otthon, a közösségükben vagy az iskolában tanulnak magyarul vagy más nyelveken. Az oldalon 40 mese található az African Storybooksból, különböző szinteken, hanganyaggal. Magyarul, angolul és más nyelveken is olvashatóak a történetek.
 ">
-	<link rel="stylesheet" href="/storybooks-hungary/css/spectre-ar.min.css">
+	<link rel="stylesheet" href="/storybooks-hungary/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-hungary/css/gsn-ar.min.css">
 	<link rel="stylesheet" href="/storybooks-hungary/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-hungary/stories/ar/0072/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Magyarország" href="/storybooks-hungary">
@@ -90,17 +91,17 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Következő oldal"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ar/0072/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-hungary/audio/ar/0072/mp3/01.mp3"></audio>
 			<button onclick="switchlang('ar,hu','hu,en,ar')" class="btn btn-lg lang-primary" title="Váltás magyarról arab">hu</button>
 			<button style="display:none" onclick="switchlang('ar,en','hu,en,ar')" class="btn btn-lg lang-secondary" title="Váltás angolról arab">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Zulu folktale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> Maaouia Haj Mabrouk</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> Mashael Muhanna</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/ar">arab</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/ar/level4">4. szint</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ar/0072/ar-0072_honeyguide.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Zulu folktale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> Maaouia Haj Mabrouk</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> Mashael Muhanna</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/ar">arab</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/ar/level4">4. szint</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon cover-icon-audio" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="/0072/ar-0072_honeyguide.mp3" type="audio/mpeg"></audio></h3>
 	</div>
 </div>
 <hr>
@@ -303,7 +304,7 @@ Ngede perched on a rock near the boy and waited for his reward.
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0072/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
-	لكن جنجيل أطفا النار والتقط رمحه وعاد أدراجه إلى منزله متناسياً العصفور، دليل المناحل. صاح العصفور غاضباً: “فيكتور، فيكتور …”. توقف جنجيل عن السير وحدق في العصفور الصغير وانفجر ضاحكاً: ” هل تريد بعضا من العسل يا صديقي؟ لكن أنا من قام بالعمل كله وتحملت كل تلك اللدغات لوحدي… فلماذا إذن أقتسم هذا العسل الرائع معك؟”. ثم ذهب بعيداً. استشاط نجيد غضبا بعد أن تأكد من أن لا سبيل للتفاهم مع جنجيل وقرر بأن ينتقم لنفسه.
+	لكن جنجيل أطفا النار والتقط رمحه وعاد أدراجه إلى منزله متناسياً العصفور، دليل المناحل. صاح العصفور غاضباً: “فيكتور، فيكتور …”. توقف جنجيل عن السير وحدق في العصفور الصغير وانفجر ضاحكاً: “هل تريد بعضا من العسل يا صديقي؟ لكن أنا من قام بالعمل كله وتحملت كل تلك اللدغات لوحدي… فلماذا إذن أقتسم هذا العسل الرائع معك؟”. ثم ذهب بعيداً. استشاط نجيد غضبا بعد أن تأكد من أن لا سبيل للتفاهم مع جنجيل وقرر بأن ينتقم لنفسه.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>

@@ -16,6 +16,7 @@
 	<meta name="description" content="A Storybooks Magyarország egy ingyenes oktatási célú oldal, mely segítséget kíván nyújtani azoknak a nyelvtanulóknak, akik otthon, a közösségükben vagy az iskolában tanulnak magyarul vagy más nyelveken. Az oldalon 40 mese található az African Storybooksból, különböző szinteken, hanganyaggal. Magyarul, angolul és más nyelveken is olvashatóak a történetek.
 ">
 	<link rel="stylesheet" href="/storybooks-hungary/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-hungary/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-hungary/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-hungary/stories/fr/0156/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Magyarország" href="/storybooks-hungary">
@@ -90,17 +91,17 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Következő oldal"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0156/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-hungary/audio/fr/0156/mp3/01.mp3"></audio>
 			<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
 			<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Christian G.</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> Marianne Pasty-Abdul Wahid, Translators without Borders</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/fr">francia</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/fr/level1">1. szint</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0156/fr-0156_hungry.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Christian G.</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> Marianne Pasty-Abdul Wahid, Translators without Borders</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/fr">francia</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/fr/level1">1. szint</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon cover-icon-audio" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="/0156/fr-0156_hungry.mp3" type="audio/mpeg"></audio></h3>
 	</div>
 </div>
 <hr>
@@ -108,9 +109,7 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0156/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Il était une fois un
-crocodile qui avait très
-faim.
+	Il était une fois un crocodile qui avait très faim.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -139,11 +138,7 @@ hungry crocodile.
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0156/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Il cherchait de quoi
-manger, doucement et
-sans faire de bruit.
-
-Et soudain …
+	Il cherchait de quoi manger, doucement et sans faire de bruit. Et soudain …
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -174,8 +169,7 @@ And then…
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0156/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	TCHAK&nbsp;!!!
-Le crocodile attaque&nbsp;!
+	TCHAK&nbsp;!!! Le crocodile attaque&nbsp;!
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -204,9 +198,7 @@ The crocodile strikes!
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0156/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Après cela sa faim est
-calmée, et il est
-content.
+	Après cela sa faim est calmée, et il est content.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -236,8 +228,7 @@ is happy.
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0156/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Jusqu’à ce qu’il ait faim
-de nouveau.
+	Jusqu’à ce qu’il ait faim de nouveau.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -268,7 +259,7 @@ again.
 		<h5>Írta: Christian G.</h5>
 		<h5>Ilusztrálta: Wiehan de Jager</h5>
 		<h5>Fordította: Marianne Pasty-Abdul Wahid, Translators without Borders</h5>
-		<h5>Felolvassa: Alexandra Danahy</h5>
+		<h5>Felolvassa: Monique Bournot-Trites</h5>
 		<h5>Nyelv: <a href="/storybooks-hungary/stories/fr">francia</a></h5>
 		<h5><a href="/storybooks-hungary/stories/fr/level1">1. szint</a></h5>
 		<h5>Forrás: <a href="https://africanstorybook.org/reader.php?id=7043" target="_blank">The hungry crocodile</a> az <a href="https://africanstorybook.org/">African Storybookból</a></h5>
