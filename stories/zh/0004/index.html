@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-hungary/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-hungary/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-hungary/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-hungary/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-hungary/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-hungary/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-hungary/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-hungary/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-hungary/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-hungary/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-hungary/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-hungary/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>山羊、野狗、和水牛 - Storybooks Magyarország</title>
 	<meta name="description" content="A Storybooks Magyarország egy ingyenes oktatási célú oldal, mely segítséget kíván nyújtani azoknak a nyelvtanulóknak, akik otthon, a közösségükben vagy az iskolában tanulnak magyarul vagy más nyelveken. Az oldalon 40 mese található az African Storybooksból, különböző szinteken, hanganyaggal. Magyarul, angolul és más nyelveken is olvashatóak a történetek.
@@ -20,15 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-hungary/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-hungary/stories/zh/0004/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Magyarország" href="/storybooks-hungary">
-	<link rel="stylesheet" href="/storybooks-hungary/css/fontello.min.css">
-	<link rel="canonical" href="https://global-asp.github.io//storybooks-hungary/stories/zh/0004/">
-	<link rel="alternate" type="application/rss+xml" title="Storybooks Magyarország" href="/storybooks-hungary">
-	<script src="/storybooks-hungary/js/sbc.js"></script>
+	<script src="/storybooks-hungary/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -40,9 +35,9 @@
 		<div class="btn-group btn-group-block">
 			<a href="/storybooks-hungary/" class="btn btn-primary">Főmenü</a>
 			<div class="dropdown">
-				<a href="#" class="btn btn-primary dropdown-toggle" tabindex="0">Az oldalról</a>
+				<a href="#" class="btn btn-primary dropdown-toggle" tabindex="0">Rólunk</a>
 				<ul class="menu">
-					<li class="menu-item"><a href="/storybooks-hungary/about">Rólunk</a></li>
+					<li class="menu-item"><a href="/storybooks-hungary/about">Az oldalról</a></li>
 					<li class="menu-item"><a href="/storybooks-hungary/about/languages">Nyelvek</a></li>
 				</ul>
 			</div>
@@ -52,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">PDF letöltése</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="PDF letöltése ehhez a történethez jelenleg nem érhető el."><a class="btn btn-lg disabled">PDF letöltése</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -86,27 +81,30 @@
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">山羊、野狗、和水牛</span>
 			<span class="l1">A kecske, a kutya és a tehén</span>
-			<span class="l2">Goat, Dog and Cow</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Következő oldal"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0004/mp3/01.mp3"></audio>
-			<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-			<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+			<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Fabian Wakholi</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Marleen Visser, Ingrid Schechter</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> dohliam</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> Zhuo Sun</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/zh">kínai</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/zh/level2">2. szint</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon cover-icon-audio" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0004/zh-0004_goat.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/zh/level2">2. szint
+</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="A szöveg felolvasása"><img class="cover-icon cover-icon-audio" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0004/zh-0004_goat.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvasás sebessége"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/speedometer.svg" alt="Felolvasás sebessége" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Felolvasás sebessége: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay történet (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-hungary/css/play.svg" alt="Autoplay történet" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0004/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 	山羊、野狗、和水牛是很要好的朋友。有一天，他们一起坐出租车。
@@ -115,12 +113,7 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	A kecske, a kutya és a tehén jó barátok voltak. Egy nap taxival indultak útnak.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Goat, Dog, and Cow
-were great friends. One
-day they went on a
-journey in a taxi.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -129,8 +122,8 @@ journey in a taxi.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -146,13 +139,7 @@ journey in a taxi.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Amikor megérkeztek, a sofőr megkérte őket, hogy fizessék ki az utazást. A tehén kifizette a részét.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	When they reached the
-end of their journey, the
-driver asked them to
-pay their fares. Cow
-paid her fare.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -161,8 +148,8 @@ paid her fare.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -178,11 +165,7 @@ paid her fare.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	A kutya egy kicsit többet adott, mert nem volt nála apró.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Dog paid a bit extra,
-because he did not
-have the correct money.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -191,8 +174,8 @@ have the correct money.
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -208,13 +191,7 @@ have the correct money.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	A sofőr éppen a kutya pénzét váltotta fel, amikor a kecske fizetés nélkül elfutott.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	The driver was about to
-give Dog his change
-when Goat ran away
-without paying
-anything.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -223,8 +200,8 @@ anything.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -240,12 +217,7 @@ anything.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	A sofőr méregbe gurult. Elhajtott anélkül, hogy a visszajárót oda adta volna a kutyának.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	The driver was very
-annoyed. He drove
-away without giving
-Dog his change.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -254,8 +226,8 @@ Dog his change.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -271,14 +243,7 @@ Dog his change.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Ezért van az még ma is, hogy a kutya rohan az autók felé, hogy bekukucskáljon és megtalálja azt a sofőrt, aki tartozik neki a visszajáróval.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	That is why, even
-today, Dog runs
-towards a car to peep
-inside and find the
-driver who owes him his
-change.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -287,8 +252,8 @@ change.
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -304,13 +269,7 @@ change.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	A kecske pedig már az autó hangját hallva elrohan. Fél, hogy letartóztatják, mert nem fizette ki a részét.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Goat runs away from
-the sound of a car. She
-is afraid she will be
-arrested for not paying
-her fare.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -319,8 +278,8 @@ her fare.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
@@ -336,14 +295,7 @@ her fare.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	A tehenet viszont egyáltalán nem érdekli, hogy jön az autó. Szépen lassan sétál át az úton, hiszen ő kifizette az utazást.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	And Cow is not
-bothered when a car is
-coming. Cow takes her
-time crossing the road
-because she knows she
-paid her fare in full.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -352,29 +304,34 @@ paid her fare in full.
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,hu','hu,en,zh')" class="btn btn-lg lang-primary" title="Váltás magyarról kínai">hu</button>
-		<button style="display:none" onclick="switchlang('zh,en','hu,en,zh')" class="btn btn-lg lang-secondary" title="Váltás angolról kínai">en</button>
+		<button onclick="switchlang('zh,hu','hu,zh')" class="btn btn-lg lang-primary" title="Váltás kínairól magyar
+">hu</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Írta: Fabian Wakholi</h5>
-		<h5>Ilusztrálta: Marleen Visser, Ingrid Schechter</h5>
-		<h5>Fordította: dohliam</h5>
-		<h5>Felolvassa: Zhuo Sun</h5>
-		<h5>Nyelv: <a href="/storybooks-hungary/stories/zh">kínai</a></h5>
-		<h5><a href="/storybooks-hungary/stories/zh/level2">2. szint</a></h5>
-		<h5>Forrás: <a href="https://africanstorybook.org/reader.php?id=6380" target="_blank">Goat, Dog and Cow</a> az <a href="https://africanstorybook.org/">African Storybookból</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank"><img alt="Creative Commons Licenc" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ez a mű a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank">Creative Commons Nevezd meg! 3.0 Licenc</a> feltételeinek megfelelően felhasználható.</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">Írta:</span> Fabian Wakholi</h5>
+		<h5><span class="colophon-heading">Ilusztrálta:</span> Marleen Visser, Ingrid Schechter</h5>
+		<h5><span class="colophon-heading">Fordította:</span> dohliam</h5>
+		<h5><span class="colophon-heading">Felolvassa:</span> Zhuo Sun</h5>
+		<h5><span class="colophon-heading">Nyelv:</span> <a href="/storybooks-hungary/stories/zh">kínai</a></h5>
+		<h5><span class="colophon-heading">Szint:</span> <a href="/storybooks-hungary/stories/zh/level2">2. szint
+</a></h5>
+		<h5><span class="colophon-heading">Forrás:</span> <a href="https://africanstorybook.org/reader.php?id=6380" target="_blank">Goat, Dog and Cow</a> az <a href="https://africanstorybook.org/">African Storybook</a>
+</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ez a mű a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank">Creative Commons Nevezd meg! 3.0 Licenc</a> feltételeinek megfelelően felhasználható.
+</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>Olvass további <a href="/storybooks-hungary/stories/zh/level2">2 szintű</a> történeteket:</h5>
+		<h5>Olvass további <a href="/storybooks-hungary/stories/zh/level2">2. szintű</a> történeteket:
+</h5>
 			<label class="chip"><a href="/storybooks-hungary/stories/zh/0337/">蜡做的孩子</a></label>
 			<label class="chip"><a href="/storybooks-hungary/stories/zh/0111/">为什么河马没有毛发</a></label>
 			<label class="chip"><a href="/storybooks-hungary/stories/zh/0095/">赞玛很棒！</a></label>
@@ -389,10 +346,9 @@ paid her fare in full.
 </div>
 <div>
 <h5>Opciók</h5>
-	<a class="btn btn-lg" href="/storybooks-hungary/stories/zh" class="button">Vissza a történetek listájához</a> <a class="btn btn-lg disabled" target="_blank" href="">PDF letöltése</a>
+	<a class="btn btn-lg" href="/storybooks-hungary/stories/zh" class="button">Vissza a történetek listájához</a> <span class="tooltip tooltip-top" data-tooltip="PDF letöltése ehhez a történethez jelenleg nem érhető el."><a class="btn btn-lg disabled">PDF letöltése</a></span>
 <br><br>
 </div>
-
 
 
     </div>

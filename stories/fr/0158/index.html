@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-hungary/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-hungary/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-hungary/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-hungary/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-hungary/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-hungary/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-hungary/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-hungary/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-hungary/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-hungary/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-hungary/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-hungary/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>Poule et Aigle - Storybooks Magyarország</title>
 	<meta name="description" content="A Storybooks Magyarország egy ingyenes oktatási célú oldal, mely segítséget kíván nyújtani azoknak a nyelvtanulóknak, akik otthon, a közösségükben vagy az iskolában tanulnak magyarul vagy más nyelveken. Az oldalon 40 mese található az African Storybooksból, különböző szinteken, hanganyaggal. Magyarul, angolul és más nyelveken is olvashatóak a történetek.
@@ -20,15 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-hungary/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-hungary/stories/fr/0158/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Magyarország" href="/storybooks-hungary">
-	<link rel="stylesheet" href="/storybooks-hungary/css/fontello.min.css">
-	<link rel="canonical" href="https://global-asp.github.io//storybooks-hungary/stories/fr/0158/">
-	<link rel="alternate" type="application/rss+xml" title="Storybooks Magyarország" href="/storybooks-hungary">
-	<script src="/storybooks-hungary/js/sbc.js"></script>
+	<script src="/storybooks-hungary/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -40,9 +35,9 @@
 		<div class="btn-group btn-group-block">
 			<a href="/storybooks-hungary/" class="btn btn-primary">Főmenü</a>
 			<div class="dropdown">
-				<a href="#" class="btn btn-primary dropdown-toggle" tabindex="0">Az oldalról</a>
+				<a href="#" class="btn btn-primary dropdown-toggle" tabindex="0">Rólunk</a>
 				<ul class="menu">
-					<li class="menu-item"><a href="/storybooks-hungary/about">Rólunk</a></li>
+					<li class="menu-item"><a href="/storybooks-hungary/about">Az oldalról</a></li>
 					<li class="menu-item"><a href="/storybooks-hungary/about/languages">Nyelvek</a></li>
 				</ul>
 			</div>
@@ -52,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">PDF letöltése</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="PDF letöltése ehhez a történethez jelenleg nem érhető el."><a class="btn btn-lg disabled">PDF letöltése</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -86,27 +81,30 @@
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Poule et Aigle</span>
 			<span class="l1">A tyúk és a sas</span>
-			<span class="l2">Hen and Eagle</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Következő oldal"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0158/mp3/01.mp3"></audio>
-			<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-			<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+			<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Írta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/pencil.svg" alt="Írta"></span> Ann Nduku</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Ilusztrálta"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/art.svg" alt="Ilusztrálta"></span> Wiehan de Jager</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Fordította"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/global.svg" alt="Fordította"></span> Alexandra Danahy</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvassa"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/megaphone.svg" alt="Felolvassa"></span> Monique Bournot-Trites</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Nyelv"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/language.svg" alt="Nyelv"></span> <a href="/storybooks-hungary/stories/fr">francia</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/fr/level3">3. szint</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="A teljes szöveg felolvasása"><img class="cover-icon cover-icon-audio" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0158/fr-0158_hen.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Szint"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/level.svg" alt="Szint"></span> <a href="/storybooks-hungary/stories/fr/level3">3. szint
+</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="A szöveg felolvasása"><img class="cover-icon cover-icon-audio" src="/storybooks-hungary/css/speaker.svg" alt="A teljes szöveg felolvasása"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0158/fr-0158_hen.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Felolvasás sebessége"><img class="cover-icon cover-icon-text" src="/storybooks-hungary/css/speedometer.svg" alt="Felolvasás sebessége" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Felolvasás sebessége: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay történet (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-hungary/css/play.svg" alt="Autoplay történet" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0158/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 	Il était une fois deux amies: Poule et Aigle. Elles habitaient en paix avec tous les autres oiseaux. Pas un seul ne pouvait voler.
@@ -115,12 +113,7 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Egyszer régen a tyúk és a sas barátok voltak. Békében éltek együtt a többi madárral. Egyikük sem tudott repülni.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Once upon a time, Hen and
-Eagle were friends. They lived
-in peace with all the other birds.
-None of them could fly.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -129,8 +122,8 @@ None of them could fly.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -140,20 +133,13 @@ None of them could fly.
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0158/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Un jour, il a eu une famine dans le pays. Aigle devait marcher très loin pour trouver de la nourriture. Elle revenait épuisée. «&nbsp;Il doit y avoir une façon plus simple de voyager&nbsp;!&nbsp;» dit Aigle.
+	Un jour, il y a eu une famine dans le pays. Aigle devait marcher très loin pour trouver de la nourriture. Elle revenait épuisée. «&nbsp;Il doit y avoir une façon plus simple de voyager&nbsp;!&nbsp;» dit Aigle.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Egy nap éhínség tört ki a földön. A sasnak sokáig kellett mennie, hogy élelmet találjon. Nagyon fáradtan tért vissza. “Biztos, hogy egyszerűbben is lehet utazni!” - mondta a sas.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	One day, there was famine in
-the land. Eagle had to walk very
-far to find food. She came back
-very tired.
-“There must be an easier way
-to travel!” said Eagle.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -162,8 +148,8 @@ to travel!” said Eagle.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -173,22 +159,13 @@ to travel!” said Eagle.
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0158/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Après une bonne nuit de sommeil, Poule eut une idée de génie. Elle commença à recueillir les plumes tombées de tous leurs amis oiseaux. «&nbsp;Cousons-les ensemble par-dessus nos propres plumes,&nbsp;» dit-elle. «&nbsp;Peut-être que cela rendra nos voyages plus faciless.&nbsp;»
+	Après une bonne nuit de sommeil, Poule eut une idée de génie. Elle commença à recueillir les plumes tombées de tous leurs amis oiseaux. «&nbsp;Cousons-les ensemble par-dessus nos propres plumes,&nbsp;» dit-elle. «&nbsp;Peut-être que cela rendra nos voyages plus faciles.&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Másnap a tyúknak csodálatos ötlete támadt. Összegyűjtötte a madár barátainak lehullott tollait. “Varrjuk rá ezeket a tollakat a saját tollainkra” - mondta - “Talán így könnyebben tudunk majd utazni.”
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	After a good night’s sleep, Hen
-had a brilliant idea. She began
-collecting the fallen feathers
-from all their bird friends.
-“Let’s sew them together on top
-of our own feathers,” she said.
-“Perhaps that will make it easier
-to travel.”
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -197,8 +174,8 @@ to travel.”
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -214,20 +191,7 @@ to travel.”
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Az egész faluban csak a sasnál volt tű, ezért ő kezdett el először varrni. Gyönyörű szárnyakat készített magának, és a tyúk fölé repült. A tyúk kölcsönkérte a tűt, de hamar belefáradt a varrásba. A szekrényen hagyta a varróeszközt és a konyhába ment, hogy ételt készítsen gyermekeinek.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Eagle was the only one in the
-village with a needle, so she
-started sewing first.
-She made herself a pair of
-beautiful wings and flew high
-above Hen.
-Hen borrowed the needle but
-she soon got tired of sewing.
-She left the needle on the
-cupboard and went into the
-kitchen to prepare food for her
-children.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -236,8 +200,8 @@ children.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -253,14 +217,7 @@ children.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Minden madár látta, hogy milyen szépen repül a sas. Kölcsönkérték a tűt a tyúktól, hogy ők is szárnyakat készíthessenek maguknak. Hamarosan az ég tele lett repülő madarakkal.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	But the other birds had seen
-Eagle flying away. They asked
-Hen to lend them the needle to
-make wings for themselves too.
-Soon there were birds flying all
-over the sky.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -269,8 +226,8 @@ over the sky.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -286,16 +243,7 @@ over the sky.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Amikor az utolsó madár visszavitte a tűt, a tyúk éppen nem volt otthon. A gyerekei vették át a varrótűt és játszani kezdtek vele. Amikor elfáradtak a homokban hagyták.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	When the last bird returned the
-borrowed needle, Hen was not
-there. So her children took the
-needle and started playing with
-it.
-When they got tired of the
-game, they left the needle in
-the sand.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -304,8 +252,8 @@ the sand.
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -321,17 +269,7 @@ the sand.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	A sas késő délután visszatért és kérte a tűt, hogy megigazíthasson néhány az útja során meglazult tollat. A tyúk kereste a szekrényen, kereste a konyhában, kereste az udvaron, de a tűt sehol sem találta.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Later that afternoon, Eagle
-returned. She asked for the
-needle to fix some feathers that
-had loosened on her journey.
-Hen looked on the cupboard.
-She looked in the kitchen. She
-looked in the yard. But the
-needle was nowhere to be
-found.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -340,8 +278,8 @@ found.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -357,16 +295,7 @@ found.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	“Kérlek adj még egy napot!” - kérlelte a sast - “Akkor majd megjavíthatod a szárnyadat és elrepülhetsz élelemért.” “Csak egy napot adok.” - mondta a sas - “Ha nem találod meg a tűt, az egyik csibédet nekem kell adnod fizetségként.”
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	“Just give me a day,” Hen
-begged Eagle. “Then you can
-fix your wing and fly away to
-get food again.”
-“Just one more day,” said Eagle.
-“If you can’t find the needle,
-you’ll have to give me one of
-your chicks as payment.”
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -375,8 +304,8 @@ your chicks as payment.”
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -392,18 +321,7 @@ your chicks as payment.”
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Másnap, amikor a sas visszatért, látta, hogy a tyúk a földet kapirgálja, de a tű nem volt sehol. Leereszkedett, gyorsan elkapott egy csibét és magával vitte. Ettől a naptól kezdve, valahányszor megjelenik a sas az égen, látja, hogy a tyúk kapirgálva keresi a tűt.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	When Eagle came the next day,
-she found Hen scratching in the
-sand, but no needle.
-So Eagle flew down very fast
-and caught one of the chicks.
-She carried it away.
-Forever after that, whenever
-Eagle appears, she finds Hen
-scratching in the sand for the
-needle.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -412,8 +330,8 @@ needle.
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
@@ -429,14 +347,7 @@ needle.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Amint a tyúk meglátja a sas árnyékát a földön, így figyelmezteti a csibéit: “Meneküljetek be!” És ők így válaszolnak: “Nem vagyunk bolondok. Futunk.”
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	As the shadow of Eagle’s wing
-falls on the ground, Hen warns
-her chicks. “Get out of the bare
-and dry land.”
-And they respond:
-“We are not fools. We will run.”
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Előző oldal"><i class="icon-arrow-up"></i></a>
@@ -445,29 +356,34 @@ And they respond:
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Lejátszás/szünet"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr,hu','hu,en,fr')" class="btn btn-lg lang-primary" title="Váltás magyarról francia">hu</button>
-		<button style="display:none" onclick="switchlang('fr,en','hu,en,fr')" class="btn btn-lg lang-secondary" title="Váltás angolról francia">en</button>
+		<button onclick="switchlang('fr,hu','hu,fr')" class="btn btn-lg lang-primary" title="Váltás franciaról magyar
+">hu</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
-	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Írta: Ann Nduku</h5>
-		<h5>Ilusztrálta: Wiehan de Jager</h5>
-		<h5>Fordította: Alexandra Danahy</h5>
-		<h5>Felolvassa: Monique Bournot-Trites</h5>
-		<h5>Nyelv: <a href="/storybooks-hungary/stories/fr">francia</a></h5>
-		<h5><a href="/storybooks-hungary/stories/fr/level3">3. szint</a></h5>
-		<h5>Forrás: <a href="https://africanstorybook.org/reader.php?id=2084" target="_blank">Hen and Eagle</a> az <a href="https://africanstorybook.org/">African Storybookból</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank"><img alt="Creative Commons Licenc" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ez a mű a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank">Creative Commons Nevezd meg! 3.0 Licenc</a> feltételeinek megfelelően felhasználható.</div>
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">Írta:</span> Ann Nduku</h5>
+		<h5><span class="colophon-heading">Ilusztrálta:</span> Wiehan de Jager</h5>
+		<h5><span class="colophon-heading">Fordította:</span> Alexandra Danahy</h5>
+		<h5><span class="colophon-heading">Felolvassa:</span> Monique Bournot-Trites</h5>
+		<h5><span class="colophon-heading">Nyelv:</span> <a href="/storybooks-hungary/stories/fr">francia</a></h5>
+		<h5><span class="colophon-heading">Szint:</span> <a href="/storybooks-hungary/stories/fr/level3">3. szint
+</a></h5>
+		<h5><span class="colophon-heading">Forrás:</span> <a href="https://africanstorybook.org/reader.php?id=2084" target="_blank">Hen and Eagle</a> az <a href="https://africanstorybook.org/">African Storybook</a>
+</h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ez a mű a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.hu" target="_blank">Creative Commons Nevezd meg! 3.0 Licenc</a> feltételeinek megfelelően felhasználható.
+</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>Olvass további <a href="/storybooks-hungary/stories/fr/level3">3 szintű</a> történeteket:</h5>
+		<h5>Olvass további <a href="/storybooks-hungary/stories/fr/level3">3. szintű</a> történeteket:
+</h5>
 			<label class="chip"><a href="/storybooks-hungary/stories/fr/0110/">Une petite graine&nbsp;: l’histoire de Wangari Maathai</a></label>
 			<label class="chip"><a href="/storybooks-hungary/stories/fr/0066/">Nozibele et les trois cheveux</a></label>
 			<label class="chip"><a href="/storybooks-hungary/stories/fr/0141/">La poule et le millepatte</a></label>
@@ -479,10 +395,9 @@ And they respond:
 </div>
 <div>
 <h5>Opciók</h5>
-	<a class="btn btn-lg" href="/storybooks-hungary/stories/fr" class="button">Vissza a történetek listájához</a> <a class="btn btn-lg disabled" target="_blank" href="">PDF letöltése</a>
+	<a class="btn btn-lg" href="/storybooks-hungary/stories/fr" class="button">Vissza a történetek listájához</a> <span class="tooltip tooltip-top" data-tooltip="PDF letöltése ehhez a történethez jelenleg nem érhető el."><a class="btn btn-lg disabled">PDF letöltése</a></span>
 <br><br>
 </div>
-
 
 
     </div>
